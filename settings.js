@@ -52,7 +52,7 @@ const settings = {
     // --- Data Logging Settings ---
     "log_normal_data": true,    // Log standard input/output pairs to normal_logs.csv
     "log_reasoning_data": true, // Log input/output pairs where response contains <think> blocks to reasoning_logs.csv
-    "log_vision_data": false     // Log vision requests (image path + transcribed text) to vision_logs.csv (requires allow_vision: true)
+    "log_vision_data": true     // Log vision requests (image path + transcribed text) to vision_logs.csv (requires allow_vision: true)
 
 }; // End of settings object definition
 
